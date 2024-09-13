@@ -1,9 +1,22 @@
+:root{
+    --bg-color: #F2613F;
+    --btn-color: #9B3922;
+    --text-size: 1.2rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 *{
-    backgrond-color: #f3dd9a;
+    background-color: #9B3922;
 }
 
 .footer__copy{
-    background-color: #000;
+    background-color:black;
     color: #fff;
     font-weight: 600;
     display: flex;
