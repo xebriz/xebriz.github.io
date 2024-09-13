@@ -1,18 +1,23 @@
 :root{
-    --bg-color: #F2613F;
-    --btn-color: #9B3922;
+    --bg-color: #153448;
+    --btn-color: #3C5B6F;
     --text-size: 1.2rem;
 }
-
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 1em;
 }
 
 *{
-    background-color: #9B3922;
+    background-color: var(--bg-color);
 }
 
 .footer__copy{
